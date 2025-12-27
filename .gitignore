@@ -1,0 +1,56 @@
+# ========================
+# Python cache & bytecode
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ========================
+# Virtual environments
+# ========================
+venv/
+.venv/
+env/
+ENV/
+
+# ========================
+# Jupyter / IPython
+# ========================
+.ipynb_checkpoints/
+.ipython/
+
+# ========================
+# OS / Editor files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# Results & generated data
+# ========================
+results/runs/
+results/figures/
+results/tmp/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Python packaging
+# ========================
+*.egg-info/
+dist/
+build/
+
+# ========================
+# Optional: large data files
+# ========================
+*.h5
+*.ckpt
+*.pt
+*.pth
